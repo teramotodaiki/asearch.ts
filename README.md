@@ -1,5 +1,7 @@
 # Asearch.ts
 
+[![Test and Publish](https://github.com/teramotodaiki/asearch.ts/actions/workflows/test-and-publish.yml/badge.svg)](https://github.com/teramotodaiki/asearch.ts/actions/workflows/test-and-publish.yml)
+
 このライブラリは [asearch-ruby](https://github.com/masui/asearch-ruby) と [node-asearch](https://github.com/shokai/node-asearch) を元に書かれた TypeScript 実装です。
 
 ただし、筆者の意図により幾つか実装上の差異があります。
