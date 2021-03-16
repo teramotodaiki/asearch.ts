@@ -2,7 +2,8 @@
   "name": "asearch.ts",
   "version": "0.0.1",
   "description": "TypeScript implementation of node-asearch",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "ava"
