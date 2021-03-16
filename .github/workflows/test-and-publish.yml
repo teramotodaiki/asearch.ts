@@ -5,9 +5,11 @@ name: Test and Publish
 
 on:
   push:
-    branches: "*"
+    branches: ["*"]
+  release:
+    types: [published]
   pull_request:
-    branches: "*"
+    branches: ["*"]
 
 jobs:
   build:
