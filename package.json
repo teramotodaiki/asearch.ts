@@ -1,0 +1,26 @@
+{
+  "name": "asearch.ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "ava"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "author": "teramotodaiki",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.34",
+    "ava": "^3.15.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
