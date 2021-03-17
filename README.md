@@ -56,7 +56,7 @@ console.log(b.match("吾輩は猫である。")); // true
 > 検索パタン中の空白文字(0x20)はワイルドカードとなる。 (0文字以上のあらゆる文字の並びにマッチする。正規表現の".*"と同様。)
 > http://www.pitecan.com/Index/asearch.html
 
-これが何に使われているのかよくわからなかったので、デフォルトでオフにしている。
+この機能はデフォルトでオフになっているので、利用する場合は `MatchMode.WildcardSpace` を指定する。
 
 部分一致をしたい場合は `MatchMode.Include` を使えば良い。
 
