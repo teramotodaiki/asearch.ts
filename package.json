@@ -2,6 +2,13 @@
   "name": "asearch.ts",
   "version": "0.0.1",
   "description": "TypeScript implementation of node-asearch",
+  "keywords": [
+    "asearch"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teramotodaiki/asearch.ts.git"
+  },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
