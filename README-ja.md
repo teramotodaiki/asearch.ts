@@ -8,6 +8,12 @@
 
 ただし、筆者の意図により幾つか実装上の差異があります。
 
+# Install
+
+```bash
+npm install asearch.ts
+```
+
 # Usage
 
 ```typescript

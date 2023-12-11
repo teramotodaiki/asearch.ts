@@ -8,6 +8,12 @@ This library is a TypeScript implementation based on [asearch-ruby](https://gith
 
 However, there are some implementation differences due to the author's intentions.
 
+# Install
+
+```bash
+npm install asearch.ts
+```
+
 # Usage
 
 ```typescript
