@@ -2,6 +2,8 @@
 
 [![Test and Publish](https://github.com/teramotodaiki/asearch.ts/actions/workflows/test-and-publish.yml/badge.svg)](https://github.com/teramotodaiki/asearch.ts/actions/workflows/test-and-publish.yml)
 
+[日本語で読む](README-ja.md)
+
 This library is a TypeScript implementation based on [asearch-ruby](https://github.com/masui/asearch-ruby) and [node-asearch](https://github.com/shokai/node-asearch).
 
 However, there are some implementation differences due to the author's intentions.

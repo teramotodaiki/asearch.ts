@@ -2,15 +2,16 @@
 
 [![Test and Publish](https://github.com/teramotodaiki/asearch.ts/actions/workflows/test-and-publish.yml/badge.svg)](https://github.com/teramotodaiki/asearch.ts/actions/workflows/test-and-publish.yml)
 
+[English translation](README.md)
+
 このライブラリは [asearch-ruby](https://github.com/masui/asearch-ruby) と [node-asearch](https://github.com/shokai/node-asearch) を元に書かれた TypeScript 実装です。
 
 ただし、筆者の意図により幾つか実装上の差異があります。
 
-
 # Usage
 
 ```typescript
-import { Asearch, MatchMode } from 'asearch.ts';
+import { Asearch, MatchMode } from "asearch.ts";
 
 // "hello" と "helo" を比較する
 const a = new Asearch("hello");
@@ -53,14 +54,14 @@ console.log(b.match("吾輩は猫である。")); // true
 
 オリジナルのライブラリではパターン文字列中の半角スペース(` `)を「ワイルドカード」として扱っている。
 
-> 検索パタン中の空白文字(0x20)はワイルドカードとなる。 (0文字以上のあらゆる文字の並びにマッチする。正規表現の".*"と同様。)
+> 検索パタン中の空白文字(0x20)はワイルドカードとなる。 (0 文字以上のあらゆる文字の並びにマッチする。正規表現の".\*"と同様。)
 > http://www.pitecan.com/Index/asearch.html
 
 この機能はデフォルトでオフになっているので、利用する場合は `MatchMode.WildcardSpace` を指定する。
 
 部分一致をしたい場合は `MatchMode.Include` を使えば良い。
 
-## 絵文字に対応している👌✨
+## 絵文字に対応している 👌✨
 
 文字列を `Array.from()` を使って分割することで絵文字に対応している。
 
@@ -71,12 +72,13 @@ console.log(b.match("吾輩は猫である。")); // true
 サンプルコードを見る方が早い。
 
 ```javascript
-const Asearch = require('asearch'); // node-asearch
+const Asearch = require("asearch"); // node-asearch
 
 const a = new Asearch("asearch");
 console.log(1, a.match("search", 1)); // ここが false になる
 console.log(2, a.match("search", 2)); // これは true になる
 ```
+
 [sandbox](https://codesandbox.io/s/silly-mclaren-xguoi?file=/src/index.js)
 
 これは状態遷移機械の初期状態から空文字(ε)で遷移できるノードに遷移する前に 1 文字目の比較をしているからだと思う。
@@ -84,7 +86,7 @@ console.log(2, a.match("search", 2)); // これは true になる
 このライブラリでは状態遷移機械の初期化時に空文字の遷移を行うことにした。
 
 ```typescript
-import { Asearch } from 'asearch.ts'; // asearch.ts
+import { Asearch } from "asearch.ts"; // asearch.ts
 
 const a = new Asearch("asearch");
 console.log(1, a.match("search", 1)); // true
