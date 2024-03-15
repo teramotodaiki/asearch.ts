@@ -30,7 +30,7 @@
   "author": "teramotodaiki",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "20.11.27",
+    "@types/node": "20.11.28",
     "ava": "6.1.2",
     "semantic-release": "23.0.3",
     "ts-node": "10.9.2",
