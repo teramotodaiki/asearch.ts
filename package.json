@@ -32,7 +32,7 @@
   "devDependencies": {
     "@types/node": "22.13.4",
     "ava": "6.2.0",
-    "semantic-release": "24.2.2",
+    "semantic-release": "24.2.3",
     "ts-node": "10.9.2",
     "typescript": "5.7.3"
   }
