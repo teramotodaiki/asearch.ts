@@ -31,7 +31,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "22.16.3",
-    "ava": "6.4.0",
+    "ava": "6.4.1",
     "semantic-release": "24.2.7",
     "ts-node": "10.9.2",
     "typescript": "5.8.3"
