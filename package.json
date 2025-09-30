@@ -34,6 +34,6 @@
     "ava": "6.4.1",
     "semantic-release": "24.2.9",
     "ts-node": "10.9.2",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   }
 }
